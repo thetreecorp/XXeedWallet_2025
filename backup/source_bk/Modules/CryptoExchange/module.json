@@ -1,0 +1,16 @@
+{
+    "name": "CryptoExchange",
+    "alias": "cryptoexchange",
+    "description": "Easiest way to buy, sell, and swap the most popular crypto-currencies in just a few minutes safely and securely.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CryptoExchange\\Providers\\CryptoExchangeServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "Entities/helper.php"
+    ],
+    "requires": [],
+    "version": "2.0.0"
+}

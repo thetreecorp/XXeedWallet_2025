@@ -1,0 +1,25 @@
+{
+    "name": "checkmobi/checkmobi-php",
+    "type": "library",
+    "description": "CheckMobi SDK for PHP",
+    "keywords": ["checkmobi", "sms", "ivr", "two factor authentication", "missed call"],
+    "homepage": "https://github.com/checkmobi/checkmobi-php",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "CheckMobi Team",
+            "email": "support@checkmobi.com",
+            "homepage": "https://checkmobi.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "ext-json": "*"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "checkmobi": "src/"
+        }
+    }
+}
